@@ -47,7 +47,7 @@ GET /svm_report?metric=accuracy
 Yanıt:
 ```json
 {
-  "accuracy": 0.95
+  "accuracy": 0.86
 }
 ```
 
@@ -88,12 +88,10 @@ Yanıt:
 
 Aşağıda SVM modelinin karar sınırı gösterilmiştir:
 
-![SVM Karar Sınırı](C:/Users/Asus/Desktop/TurkcellGKY/Figure_1.png)
-
 ![Figure_1](https://github.com/user-attachments/assets/57acd396-32a7-43ba-bf3c-5ef29e3fa306)
 
 
-> Not: Bu görsel `modelTest.py` içerisindeki `plot_decision_boundary` fonksiyonu ile oluşturulmuştur.
+> Not: Bu görsel `modelTest.py` içerisindeki `plot_decision_boundary` fonksiyonu ile oluşturulmuştur. 
 
 ## Notlar
 
@@ -103,6 +101,6 @@ Aşağıda SVM modelinin karar sınırı gösterilmiştir:
 
 ## Geliştiren
 
-**Ece Sude** – Computer Engineering Student  
+**Ece Sude GÜNERHAN** – Computer Engineering Student  
 **Staj Projesi** – SVM Tabanlı İşe Alım Tahmin Sistemi
 
